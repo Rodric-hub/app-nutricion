@@ -1,0 +1,155 @@
+2026.06.03 19:24:36 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\Dricxz\app-gimnasio' for client Visual Studio Code 1.122.1.
+2026.06.03 19:24:36 INFO  Memory monitor started
+2026.06.03 19:24:38 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.06.03 19:24:39 INFO  no build target found for C:\Users\Dricxz\app-gimnasio\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.06.03 19:24:45 WARN  Could not find semantic tokens for: file:///C:/Users/Dricxz/app-gimnasio/build.sbt
+2026.06.03 19:25:32 INFO  running 'C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.12.5 -jar C:\Users\Dricxz\AppData\Local\Temp\metals10076857536301376781\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2026.06.03 19:25:32 INFO  no build target found for C:\Users\Dricxz\app-gimnasio\project\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.06.03 19:25:32 WARN  no build target for: C:\Users\Dricxz\app-gimnasio\project\metals.sbt
+2026.06.03 19:25:32 WARN  no build target for: C:\Users\Dricxz\app-gimnasio\project\project\metals.sbt
+2026.06.03 19:25:33 ERROR [info] [launcher] getting org.scala-sbt sbt 1.12.5  (this may take some time)...
+2026.06.03 19:25:33 INFO  no build target found for C:\Users\Dricxz\app-gimnasio\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.06.03 19:25:51 ERROR [info] [launcher] getting Scala 2.12.21 (for sbt)...
+2026.06.03 19:25:54 INFO  [info] Updated file C:\Users\Dricxz\app-gimnasio\project\build.properties: set sbt.version to 1.12.5
+2026.06.03 19:25:54 INFO  [info] welcome to sbt 1.12.5 (Oracle Corporation Java 21.0.6)
+2026.06.03 19:25:59 INFO  [info] loading settings for project app-gimnasio-build-build from metals.sbt...
+2026.06.03 19:26:01 INFO  [info] loading project definition from C:\Users\Dricxz\app-gimnasio\project\project
+2026.06.03 19:26:08 INFO  [info] loading settings for project app-gimnasio-build from metals.sbt...
+2026.06.03 19:26:08 INFO  [info] loading project definition from C:\Users\Dricxz\app-gimnasio\project
+2026.06.03 19:26:16 INFO  [success] Generated .bloop\app-gimnasio-build.json
+2026.06.03 19:26:16 INFO  [success] Total time: 9 s, completed 3 jun. 2026 19:26:17
+2026.06.03 19:26:16 INFO  [info] loading settings for project app-gimnasio from build.sbt...
+2026.06.03 19:26:16 INFO  [info] set current project to app-gimnasio (in build file:/C:/Users/Dricxz/app-gimnasio/)
+2026.06.03 19:26:16 INFO  [warn] scalaVersion for subproject app-gimnasio fell back to a default value 2.12.21; declare it explicitly in build.sbt:
+2026.06.03 19:26:16 INFO  [warn]   scalaVersion := "2.12.21"
+2026.06.03 19:26:18 INFO  [success] Generated .bloop\app-gimnasio-test.json
+2026.06.03 19:26:18 INFO  [success] Generated .bloop\app-gimnasio.json
+2026.06.03 19:26:18 INFO  [success] Total time: 1 s, completed 3 jun. 2026 19:26:18
+2026.06.03 19:26:18 INFO  time: ran 'sbt bloopInstall' in 46s
+2026.06.03 19:26:18 INFO  Attempting to connect to the build server...
+2026.06.03 19:26:18 INFO  No running Bloop server found, starting one.
+2026.06.03 19:26:29 INFO  Starting compilation server
+2026.06.03 19:26:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Dricxz\app-gimnasio\.metals\bsp.trace.json or C:\Users\Dricxz\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.06.03 19:26:34 INFO  Attempting to connect to the build server...
+2026.06.03 19:26:34 INFO  Found a Bloop server running
+2026.06.03 19:26:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Dricxz\app-gimnasio\project\.metals\bsp.trace.json or C:\Users\Dricxz\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.06.03 19:26:34 INFO  time: Connected to build server in 15s
+2026.06.03 19:26:34 INFO  Connected to Build server: Bloop v2.0.19
+2026.06.03 19:26:34 INFO  time: Imported build in 0.28s
+2026.06.03 19:26:45 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.06.03 19:27:13 INFO  time: indexed workspace in 38s
+2026.06.03 19:27:23 INFO  time: code lens generation in 5.55s
+2026.06.03 19:33:17 INFO  compiling app-gimnasio (1 scala source)
+2026.06.03 19:33:17 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.21. Compiling...
+2026.06.03 19:33:36 INFO  Compilation completed in 18.097s.
+2026.06.03 19:33:41 INFO  time: compiled app-gimnasio in 23s
+2026.06.03 19:33:41 INFO  compiling app-gimnasio (1 scala source)
+jun. 03, 2026 7:33:41 P. M. scala.meta.internal.mtags.Semanticdbs$ loadResolvedTextDocument
+WARNING: Could not find text document for C:\Users\Dricxz\app-gimnasio\src\main\scala\app\Main.scala, semanticdbdocuments's relative paths were: src/main/scala/app/main.scala
+2026.06.03 19:33:41 INFO  time: compiled app-gimnasio in 0.74s
+2026.06.03 19:34:41 INFO  compiling app-gimnasio (1 scala source)
+2026.06.03 19:34:43 INFO  time: compiled app-gimnasio in 1.45s
+2026.06.03 19:34:58 INFO  compiling app-gimnasio (1 scala source)
+jun. 03, 2026 7:34:59 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+2026.06.03 19:34:59 INFO  time: compiled app-gimnasio in 1.01s
+2026.06.03 19:35:06 INFO  compiling app-gimnasio (1 scala source)
+2026.06.03 19:35:06 INFO  time: compiled app-gimnasio in 0.72s
+2026.06.03 19:35:37 INFO  compiling app-gimnasio (1 scala source)
+2026.06.03 19:35:37 INFO  time: compiled app-gimnasio in 0.84s
+2026.06.03 19:35:44 INFO  compiling app-gimnasio (1 scala source)
+2026.06.03 19:35:45 INFO  time: compiled app-gimnasio in 1.26s
+2026.06.03 19:35:51 INFO  compiling app-gimnasio (1 scala source)
+2026.06.03 19:35:51 INFO  time: compiled app-gimnasio in 0.75s
+2026.06.03 19:36:48 INFO  compiling app-gimnasio (7 scala sources)
+2026.06.03 19:36:49 INFO  time: compiled app-gimnasio in 1.51s
+jun. 03, 2026 7:36:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 108
+jun. 03, 2026 7:37:26 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+jun. 03, 2026 7:37:29 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.06.03 19:39:28 INFO  compiling app-gimnasio (1 scala source)
+2026.06.03 19:39:29 INFO  time: compiled app-gimnasio in 1.36s
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.10.7/scalafmt-core_2.13-3.10.7.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.10.7/scalafmt-core_2.13-3.10.7.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-macros_2.13/3.10.7/scalafmt-macros_2.13-3.10.7.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/mdoc-parser_2.13/2.8.2/mdoc-parser_2.13-2.8.2.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.10.7/scalafmt-config_2.13-3.10.7.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-macros_2.13/3.10.7/scalafmt-macros_2.13-3.10.7.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mdoc-parser_2.13/2.8.2/mdoc-parser_2.13-2.8.2.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.10.7/scalafmt-config_2.13-3.10.7.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.15.0/scalameta_2.13-4.15.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/metaconfig-typesafe-config_2.13/0.18.2/metaconfig-typesafe-config_2.13-0.18.2.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/metaconfig-typesafe-config_2.13/0.18.2/metaconfig-typesafe-config_2.13-0.18.2.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.15.0/scalameta_2.13-4.15.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.15.0/parsers_2.13-4.15.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.15.0/parsers_2.13-4.15.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.15.0/trees_2.13-4.15.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.15.0/trees_2.13-4.15.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.15.0/common_2.13-4.15.0.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.4.0/sourcecode_2.13-0.4.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/io_2.13/4.15.0/io_2.13-4.15.0.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.4.0/sourcecode_2.13-0.4.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.15.0/common_2.13-4.15.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/io_2.13/4.15.0/io_2.13-4.15.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.15.0/common_2.13-4.15.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/metaconfig-typesafe-config_2.13/0.18.2/metaconfig-typesafe-config_2.13-0.18.2.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/io_2.13/4.15.0/io_2.13-4.15.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-macros_2.13/3.10.7/scalafmt-macros_2.13-3.10.7.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.10.7/scalafmt-core_2.13-3.10.7.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/mdoc-parser_2.13/2.8.2/mdoc-parser_2.13-2.8.2.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/io_2.13/4.15.0/io_2.13-4.15.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.10.7/scalafmt-config_2.13-3.10.7.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/metaconfig-typesafe-config_2.13/0.18.2/metaconfig-typesafe-config_2.13-0.18.2.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.15.0/parsers_2.13-4.15.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.10.7/scalafmt-config_2.13-3.10.7.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.15.0/trees_2.13-4.15.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-macros_2.13/3.10.7/scalafmt-macros_2.13-3.10.7.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.15.0/scalameta_2.13-4.15.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mdoc-parser_2.13/2.8.2/mdoc-parser_2.13-2.8.2.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.15.0/scalameta_2.13-4.15.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.15.0/common_2.13-4.15.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.15.0/parsers_2.13-4.15.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.10.7/scalafmt-core_2.13-3.10.7.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.15.0/trees_2.13-4.15.0.jar
+2026.06.03 19:41:32 INFO  compiling app-gimnasio (1 scala source)
+2026.06.03 19:41:36 INFO  time: compiled app-gimnasio in 3.29s
+2026.06.03 19:42:33 INFO  compiling app-gimnasio (1 scala source)
+2026.06.03 19:42:35 INFO  time: compiled app-gimnasio in 1.63s
+jun. 03, 2026 7:42:35 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 176
+2026.06.03 19:42:40 INFO  compiling app-gimnasio (1 scala source)
+2026.06.03 19:42:42 INFO  time: compiled app-gimnasio in 2.16s
+2026.06.03 19:42:53 INFO  compiling app-gimnasio (1 scala source)
+2026.06.03 19:42:55 INFO  time: compiled app-gimnasio in 2.1s
+2026.06.03 19:43:02 INFO  compiling app-gimnasio (1 scala source)
+2026.06.03 19:43:04 INFO  time: compiled app-gimnasio in 2.06s
+2026.06.03 19:43:08 INFO  compiling app-gimnasio (1 scala source)
+2026.06.03 19:43:09 INFO  time: compiled app-gimnasio in 1.34s
+2026.06.03 19:43:17 INFO  compiling app-gimnasio (1 scala source)
+2026.06.03 19:43:19 INFO  time: compiled app-gimnasio in 1.65s
+2026.06.03 19:47:55 INFO  Shutting down server
+2026.06.03 19:47:55 INFO  Memory monitor stopped
+2026.06.03 19:47:55 INFO  shutting down Metals
+2026.06.03 19:47:56 INFO  Shut down connection with build server.
+2026.06.03 19:47:56 INFO  Shut down connection with build server.
+2026.06.03 19:47:55 INFO  Exiting server
+2026.06.03 19:48:39 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\Dricxz\app-gimnasio' for client Visual Studio Code 1.123.0.
+2026.06.03 19:48:41 INFO  Memory monitor started
+2026.06.03 19:48:43 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.06.03 19:48:43 INFO  Attempting to connect to the build server...
+2026.06.03 19:48:43 INFO  Found a Bloop server running
+2026.06.03 19:48:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Dricxz\app-gimnasio\.metals\bsp.trace.json or C:\Users\Dricxz\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.06.03 19:48:44 INFO  Attempting to connect to the build server...
+2026.06.03 19:48:44 INFO  Found a Bloop server running
+2026.06.03 19:48:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Dricxz\app-gimnasio\project\.metals\bsp.trace.json or C:\Users\Dricxz\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.06.03 19:48:45 INFO  time: Connected to build server in 1.71s
+2026.06.03 19:48:44 INFO  Connected to Build server: Bloop v2.0.19
+jun. 03, 2026 7:48:45 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.06.03 19:48:46 INFO  time: Imported build in 0.41s
+2026.06.03 19:49:04 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.06.03 19:49:14 INFO  time: indexed workspace in 27s
+2026.06.03 19:51:28 INFO  compiling app-gimnasio (1 scala source)
+2026.06.03 19:51:29 INFO  time: compiled app-gimnasio in 1.74s
