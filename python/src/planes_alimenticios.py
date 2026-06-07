@@ -1,6 +1,5 @@
 """
 Módulo de gestión de planes alimenticios
-Genera, almacena y recupera planes personalizados basados en objetivos y calorías
 """
 
 from datetime import datetime

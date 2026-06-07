@@ -1,7 +1,7 @@
 """
 Módulo conector entre Python y Prolog
 """
-
+" Requiere instalar pyswip: pip install pyswip "
 from pyswip import Prolog
 from pathlib import Path
 import os
