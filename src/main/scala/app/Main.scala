@@ -22,10 +22,10 @@ object Main extends App {
   println("Objetivo (perder / ganar / mantener): ")
   val objetivo = readLine()
 
-  val usuario =
-    UsuarioService.crearUsuario(nombre, edad, peso, altura, objetivo)
+  val usuario = UsuarioService.crearUsuario(nombre, edad, peso, altura, objetivo)
 
   UsuarioService.mostrarUsuario(usuario)
   CaloriasService.mostrarCalorias(usuario)
+  CaloriasService.mostrarDieta(usuario)  // ← nuevo
   RutinasService.mostrarRutina(objetivo)
 }
