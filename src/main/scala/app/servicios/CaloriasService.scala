@@ -9,7 +9,7 @@ object CaloriasService {
     u.objetivo match {
       case "perder"   => (tmb * 1.2 * 0.85).toInt
       case "ganar"    => (tmb * 1.2 * 1.15).toInt
-      case _          => (tmb * 1.2).toInt
+      case "mantener"         => (tmb * 1.2).toInt
     }
   }
 
@@ -24,7 +24,7 @@ object CaloriasService {
     u.objetivo match {
       case "perder" => Dieta("Pérdida de peso",    cal, Dieta.alimentosPerder)
       case "ganar"  => Dieta("Ganancia muscular",  cal, Dieta.alimentosGanar)
-      case _        => Dieta("Mantenimiento",       cal, Dieta.alimentosMantener)
+      case "mantener" => Dieta("Mantenimiento",       cal, Dieta.alimentosMantener)
     }
   }
 
