@@ -1,11 +1,15 @@
-# Metals (Scala LSP)
+# Scala / sbt
+target/
 .bloop/
 .metals/
-
-# sbt
-target/
-project/target/
+metals.sbt
 project/project/
+project/target/
+project/.bloop/
+*.class
+
+# VS Code
+.vscode/
 
 # Python
 __pycache__/
@@ -14,14 +18,9 @@ __pycache__/
 .venv/
 env/
 
-# SWI-Prolog
+# Prolog
 *.qlf
 
-# Datos generados
-data/entrada/
-data/salida/
-
-# IDEs
-.idea/
-.vscode/
-*.iml
+# Sistema
+.DS_Store
+Thumbs.db
