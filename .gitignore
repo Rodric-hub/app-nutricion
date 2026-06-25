@@ -1,0 +1,27 @@
+# Metals (Scala LSP)
+.metals/
+.bloop/
+
+# sbt
+target/
+project/target/
+project/project/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+
+# SWI-Prolog
+*.qlf
+
+# Datos generados
+data/entrada/
+data/salida/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
