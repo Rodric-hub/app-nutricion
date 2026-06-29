@@ -6,6 +6,7 @@ Comunicación entre Python y SWI-Prolog usando pyswip o subprocess.
 import subprocess
 import os
 import json
+import shutil
 
 # Ruta al directorio prolog relativa a este archivo
 PROLOG_DIR = os.path.abspath(
@@ -13,14 +14,27 @@ PROLOG_DIR = os.path.abspath(
 )
 PROLOG_DIR = PROLOG_DIR.replace("\\", "/")
 
+# Candidatos de ruta para el ejecutable de SWI-Prolog.
+# Se prueba primero el PATH del sistema (mas portable) y luego
+# la ruta tipica de instalacion en Windows como respaldo.
+_SWIPL_CANDIDATOS = [
+    shutil.which("swipl"),
+    r"C:\Program Files\swipl\bin\swipl.exe",
+    r"C:\Program Files (x86)\swipl\bin\swipl.exe",
+]
+SWIPL_PATH = next((p for p in _SWIPL_CANDIDATOS if p and os.path.exists(p)), None)
+
 
 def consultar_prolog_subprocess(query: str) -> str:
+    if SWIPL_PATH is None:
+        return "ERROR: SWI-Prolog no encontrado. Instálalo o agrégalo al PATH."
+
     prolog_file = PROLOG_DIR + "/recomendaciones.pl"
     goal = f"consult('{prolog_file}'), {query}, halt."
-    
+
     try:
         result = subprocess.run(
-            [r"C:\Program Files\swipl\bin\swipl.exe", "-g", goal, "-t", "halt"],
+            [SWIPL_PATH, "-g", goal, "-t", "halt"],
             capture_output=True,
             text=True,
             timeout=10
